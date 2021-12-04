@@ -1,5 +1,8 @@
-with open('day1_input.txt') as f:
-    lines = f.readlines()
+def main():
+    with open('day1_input.txt') as f:
+        lines = f.readlines()
+    f.close()
+    
     prev_lines = [0,int(lines[0].replace("\n", "")),int(lines[1].replace("\n", ""))]
     prev_set = None
     stats = [0,0,0,0]
@@ -27,4 +30,5 @@ with open('day1_input.txt') as f:
     print("decreased: " + str(stats[2]))
     print("increased: " + str(stats[3]))
 
+main()
 # Answer is 1567

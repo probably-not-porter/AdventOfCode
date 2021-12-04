@@ -1,5 +1,8 @@
-with open('day2_input.txt') as f:
-    lines = f.readlines()
+def main():
+    with open('day2_input.txt') as f:
+        lines = f.readlines()
+    f.close()
+    
     posx = 0
     posy = 0
     aim = 0
@@ -20,4 +23,5 @@ with open('day2_input.txt') as f:
     print("Horizontal Position: " + str(posx))
     print("Solution: " + str(posx * posy))
 
+main()
 # Answer is 1759818555

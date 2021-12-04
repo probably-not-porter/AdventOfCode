@@ -1,5 +1,8 @@
-with open('input.txt') as f:
-    lines = f.readlines()
+def main():
+    with open('input.txt') as f:
+        lines = f.readlines()
+    f.close()
+    
     prev_line = None
     stats = [0,0,0,0]
 
@@ -20,4 +23,5 @@ with open('input.txt') as f:
     print("decreased: " + str(stats[2]))
     print("increased: " + str(stats[3]))
 
+main()
 # Answer is 1529
