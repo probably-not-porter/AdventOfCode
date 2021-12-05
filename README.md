@@ -21,4 +21,9 @@ https://adventofcode.com/
   - Part 1 = 3374136
 
   - Part 2 = 4432698
+
+  ## Day 4
+  - Part 1 = 49686
+  
+  - Part 2 = 26878
 </details>
