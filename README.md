@@ -19,4 +19,6 @@ https://adventofcode.com/
 
   ## Day 3
   - Part 1 = 3374136
+
+  - Part 2 = 4432698
 </details>
