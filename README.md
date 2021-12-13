@@ -25,8 +25,11 @@ https://adventofcode.com/
   ## Day 5
 
   ## Day 6
+  - Part 1 = 396210
+  - Part 2 = 1770823541496
 
   ## Day 7
   - Part 1 = 343605
   - Part 2 = 96744904
+  
 </details>
